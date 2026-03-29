@@ -7,6 +7,7 @@ import NavBar from "./component/NavBar";
 import { ToastContainer } from 'react-toastify'
 import GetStarted from "./component/GetStarted";
 import Pricing from "./component/Pricing";
+import Cta from "./component/Cta";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -55,6 +56,8 @@ function App() {
 
       <GetStarted/>
       <Pricing></Pricing>
+
+      <Cta/>
 
       <Footer />
 
