@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
+    "icon": "✍️"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access 2000+ premium templates for social media, presentations, and marketing.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["2000+ templates", "Monthly updates", "Commercial license"],
+    "icon": "🎨"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Get access to millions of royalty-free photos, videos, and design assets.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["10M+ assets", "Commercial use", "No attribution required"],
+    "icon": "📸"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and workflows with powerful tools.",
+    "price": 79,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["50+ automations", "API access", "Custom workflows"],
+    "icon": "⚙️"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes and cover letters easily.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "All-in-one toolkit to create engaging social media content.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["5000+ assets", "Content scheduler", "Analytics dashboard"],
+    "icon": "📱"
+  },
+  {
+    "id": 7,
+    "name": "Email Marketing Suite",
+    "description": "Create, automate, and track email campaigns effectively.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Email templates", "Automation workflows", "Analytics reports"],
+    "icon": "📧"
+  },
+  {
+    "id": 8,
+    "name": "Website Builder Pro",
+    "description": "Build responsive and modern websites without coding.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Drag & drop builder", "SEO tools", "Free hosting"],
+    "icon": "🌐"
+  },
+  {
+    "id": 9,
+    "name": "SEO Optimization Tool",
+    "description": "Improve your website ranking with advanced SEO insights.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Keyword research", "Site audit", "Competitor analysis"],
+    "icon": "🔍"
+  },
+  {
+    "id": 10,
+    "name": "Online Course Creator",
+    "description": "Create and sell online courses بسهولة with built-in tools.",
+    "price": 99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Course builder", "Student management", "Payment integration"],
+    "icon": "🎓"
+  }
+]
