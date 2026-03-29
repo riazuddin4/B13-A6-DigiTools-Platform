@@ -9,6 +9,7 @@ import GetStarted from "./component/GetStarted";
 import Pricing from "./component/Pricing";
 import Cta from "./component/Cta";
 import Nav from "./Nav";
+import Stats from "./component/Stats";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -29,6 +30,8 @@ function App() {
       <NavBar carts={carts}/>
 
       <Banner/>
+
+      <Stats/>
 
 
            {/* name of each tab group should be unique */}
