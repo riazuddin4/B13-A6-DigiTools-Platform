@@ -25,10 +25,10 @@ function App() {
 
   return (
     <>
-    <Nav></Nav>
-      {/* <NavBar /> */}
+    {/* <Nav></Nav> */}
+      <NavBar carts={carts}/>
 
-      <Banner />
+      <Banner/>
 
 
            {/* name of each tab group should be unique */}
