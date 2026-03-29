@@ -8,6 +8,7 @@ import { ToastContainer } from 'react-toastify'
 import GetStarted from "./component/GetStarted";
 import Pricing from "./component/Pricing";
 import Cta from "./component/Cta";
+import Nav from "./Nav";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -24,7 +25,8 @@ function App() {
 
   return (
     <>
-      <NavBar />
+    <Nav></Nav>
+      {/* <NavBar /> */}
 
       <Banner />
 
