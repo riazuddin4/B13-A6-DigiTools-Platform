@@ -1,4 +1,5 @@
 import { toast } from "react-toastify";
+import ShopImg from "../../public/products/shopping-cart.png"
 
 const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
@@ -24,7 +25,7 @@ const Cart = ({ carts, setCarts }) => {
       {carts.length === 0 ? (
         <div className="flex flex-col items-center justify-center mt-10">
     <img 
-      src="../../public/products/shopping-cart.png"
+      src={ShopImg}
       alt="Empty cart"
       className="w-40 mb-4 border-zinc-800"
     />
