@@ -1,4 +1,5 @@
 import BannerImage from "../assets/banner.png";
+import PlayerImage from "../assets/play.png";
 
 const Banner = () => {
   return (
@@ -6,8 +7,8 @@ const Banner = () => {
       <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
         {/* Left Content */}
         <div className="space-y-4">
-          <div className="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/30 text-red-400 text-sm font-medium px-5 py-2 rounded-full">
-            ✨ New: AI-Powered Tools Available
+          <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-red-500/30 text-blue-600 text-sm font-medium px-5 py-2 rounded-full">
+            <div className="badge badge-primary badge-xs"></div> New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter text-red-600">
@@ -26,13 +27,12 @@ const Banner = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="bg-red-600 hover:bg-red-500 transition-all px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl shadow-red-500/30 flex items-center gap-3 group text-white">
+            <button className="bg-primary hover:bg-linear-to-r from-blue-400 via-purple-400 transition-all px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl shadow-blue-600/30 flex items-center gap-3 group text-white">
               Explore Products
               <span className="group-hover:translate-x-1 transition">→</span>
             </button>
-            <button className=" border border-pink-500   hover:bg-pink-600 transition-x-1 px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl shadow-blue-500/30 flex items-center gap-3 group text-blue-600">
+            <button className=" border border-purple-700   hover:bg-purple-700 transition-x-1 px-8 py-4 rounded-2xl font-semibold text-lg shadow-xl shadow-blue-500/30 flex items-center gap-3 group text-blue-400"><img src={PlayerImage}/>
               Watch Demo
-              <span className="group-hover:translate-x-1 transition">→</span>
             </button>
           </div>
 

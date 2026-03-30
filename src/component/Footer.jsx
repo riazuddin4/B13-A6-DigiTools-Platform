@@ -8,13 +8,12 @@ const Footer = () => {
             <div className="flex items-center gap-3 mb-6">
               <img src="/logo.png" alt="AI Hub Logo" className="h-10 w-auto" />
               <h2 className="text-3xl font-bold tracking-tighter text-white">
-                
+
               </h2>
             </div>
 
             <p className="text-zinc-400 text-lg max-w-md">
-              One subscription. Access to all frontier AI models in a single
-              powerful platform.
+              Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.
             </p>
 
             {/* <div className="mt-8 flex gap-6 text-2xl text-zinc-500">
@@ -32,7 +31,7 @@ const Footer = () => {
             <ul className="space-y-4 text-zinc-400">
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Models
+                  Features
                 </a>
               </li>
               <li>
@@ -42,12 +41,12 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Features
+                  Templates
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  API
+                  Integrations
                 </a>
               </li>
             </ul>
@@ -73,15 +72,45 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="hover:text-white transition">
-                  Contact
+                  Press
                 </a>
               </li>
             </ul>
           </div>
 
           <div className="md:col-span-3">
-            <h3 className="text-red-400 font-semibold mb-6 text-lg">Legal</h3>
+            <h3 className="text-red-400 font-semibold mb-6 text-lg">Resources</h3>
             <ul className="space-y-4 text-zinc-400">
+              <li>
+                <a href="#" className="hover:text-white transition">
+                  Documentation
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition">
+                  Help Center
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition">
+                  Community
+                </a>
+              </li>
+              <li>
+                <a href="#" className="hover:text-white transition">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
+          <div>© {new Date().getFullYear()} DigiTools. All rights reserved.</div>
+
+          <div className="md:col-span-3">
+            <ul className="space-y-4 text-zinc-400 flex gap-3 ">
               <li>
                 <a href="#" className="hover:text-white transition">
                   Privacy Policy
@@ -99,14 +128,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <div>© {new Date().getFullYear()} DigiTools. All rights reserved.</div>
 
           <div className="flex gap-6">
-            <a href="#" className="hover:text-red-400 transition">
+            <a href="#" className="hover:text-white transition">
               Made with ❤️ for AI enthusiasts
             </a>
           </div>

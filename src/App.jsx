@@ -11,6 +11,7 @@ import Cta from "./component/Cta";
 import Nav from "./Nav";
 import Stats from "./component/Stats";
 
+
 const getModels = async () => {
   const res = await fetch("/models.json");
   return res.json();
@@ -31,7 +32,10 @@ function App() {
 
       <Banner/>
 
+      
+
       <Stats/>
+
 
 
            {/* name of each tab group should be unique */}

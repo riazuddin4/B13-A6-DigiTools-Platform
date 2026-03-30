@@ -38,7 +38,7 @@ const Navbar = ({ carts }) => {
           </button>
 
           {/* Get Started */}
-          <button className="bg-gradient-to-r from-purple-500 to-pink-500 text-white px-5 py-2 rounded-full font-medium hover:opacity-90 transition">
+          <button className="bg-linear-to-r from-purple-500 to-pink-500 text-white px-5 py-2 rounded-full font-medium hover:opacity-90 transition">
             Get Started
           </button>
         </div>

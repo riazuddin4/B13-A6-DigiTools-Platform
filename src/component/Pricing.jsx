@@ -67,7 +67,7 @@ const Pricing = () => {
             key={plan.id}
             className={`rounded-xl border p-6 shadow-sm relative ${
               plan.highlight
-                ? "bg-gradient-to-r from-purple-500 to-pink-500 text-white scale-105"
+                ? "bg-linear-to-r from-purple-500 to-pink-500 text-white scale-105"
                 : "bg-white"
             }`}
           >
@@ -105,7 +105,7 @@ const Pricing = () => {
               className={`w-full mt-6 py-2 rounded-full font-medium ${
                 plan.highlight
                   ? "bg-white text-purple-600"
-                  : "bg-gradient-to-r from-purple-500 to-pink-500 text-white"
+                  : "bg-linear-to-r from-purple-500 to-pink-500 text-white"
               }`}
             >
               {plan.button}

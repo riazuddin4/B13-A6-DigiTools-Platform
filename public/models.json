@@ -8,7 +8,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Unlimited AI generations", "50+ writing templates", "Grammar checker"],
-    "icon": "../src/assets/products/design-tool.png✍️"
+    "icon": "/products/writing_2327400 1.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["2000+ templates", "Monthly updates", "Commercial license"],
-    "icon": "🎨"
+    "icon": "/products/design-tool.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["10M+ assets", "Commercial use", "No attribution required"],
-    "icon": "📸"
+    "icon": "/products/cam.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["50+ automations", "API access", "Custom workflows"],
-    "icon": "⚙️"
+    "icon": "/products/operation.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "📄"
+    "icon": "/products/portfolio.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["5000+ assets", "Content scheduler", "Analytics dashboard"],
-    "icon": "📱"
+    "icon": "/products/social-media.png"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Email templates", "Automation workflows", "Analytics reports"],
-    "icon": "📧"
+    "icon": "https://i.ibb.co.com/4Z8yNS2k/1f4e7-color.webp"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Drag & drop builder", "SEO tools", "Free hosting"],
-    "icon": "🌐"
+    "icon": "https://i.ibb.co.com/FbCb9KxH/1f310.webp"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Keyword research", "Site audit", "Competitor analysis"],
-    "icon": "🔍"
+    "icon": "https://i.ibb.co.com/HpXnXgYQ/1f50d.png"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Course builder", "Student management", "Payment integration"],
-    "icon": "🎓"
+    "icon": "https://i.ibb.co.com/zVW8wBR3/1f393.webp"
   }
 ]
