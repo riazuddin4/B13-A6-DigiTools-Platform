@@ -22,7 +22,14 @@ const Cart = ({ carts, setCarts }) => {
       <h1 className="text-2xl font-bold">Your Cart</h1>
 
       {carts.length === 0 ? (
-        <p className="text-center text-2xl p-5">Cart is empty</p>
+        <div className="flex flex-col items-center justify-center mt-10">
+    <img 
+      src="../../public/products/shopping-cart.png"
+      alt="Empty cart"
+      className="w-40 mb-4 border-zinc-800"
+    />
+    <p className="text-center text-2xl p-5">Cart is empty</p>
+  </div>
       ) : (
         <>
           <div className="space-y-5 mt-4">
@@ -35,7 +42,7 @@ const Cart = ({ carts, setCarts }) => {
                   <div>
                     <img
                       className="h-20 w-20 object-contain"
-                      src={item.image}
+                      src={item.icon}
                     />
                   </div>
 

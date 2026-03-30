@@ -62,11 +62,14 @@ function App() {
       {activeTab === "model" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}/>}
 
       {activeTab === "cart" && <Cart  carts={carts} setCarts={setCarts}/>}
+      {activeTab === "model" && <GetStarted/>}
+      {activeTab === "model" && <Pricing/>}
+      {activeTab === "model" && <Cta/>}
 
-      <GetStarted/>
-      <Pricing></Pricing>
+      {/* <GetStarted/> */}
+      {/* <Pricing></Pricing> */}
 
-      <Cta/>
+      {/* <Cta/> */}
 
       <Footer />
 
